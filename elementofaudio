@@ -1,0 +1,18 @@
+elemen audio digunakan untuk menampung suara atau streaming audio pada webpage kita
+elemen audio mendukung control, cukup ditulis saja control, tanpa ada "nilai" nya, maka tersedia kontrol untuk memainkan audio
+
+<body>
+  <header>
+    <h1>Real Coding Ninjas</h1>
+  </header>
+  <main>
+    <p>A sound clip of Zersiax's screen reader in action.</p>
+  <audio controls>
+    <source src="https://s3.amazonaws.com/freecodecamp/screen-reader.mp3" type="audio/mpeg" />  
+    //*gunakan tanda penutup garis miring pada bagian source, dan jangan lupa tulis type nya
+  </audio>
+
+
+  </main>
+</body>
+
